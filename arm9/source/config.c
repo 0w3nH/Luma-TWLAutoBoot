@@ -698,7 +698,7 @@ static char tmpIniBuffer[0x2000];
 
 static bool readLumaIniConfig(void)
 {
-    u32 rd = fileRead(tmpIniBuffer, "config.ini", sizeof(tmpIniBuffer) - 1);
+    u32 rd = fileRead(tmpIniBuffer, "config2.ini", sizeof(tmpIniBuffer) - 1);
     if (rd == 0) return false;
 
     tmpIniBuffer[rd] = '\0';
