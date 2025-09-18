@@ -597,7 +597,7 @@ static size_t saveLumaIniConfigToStr(char *out)
     char lumaRevSuffixStr[16];
     char rosalinaMenuComboStr[128];
 
-    const char *splashPosStr;
+    const char *splashPosStr = 0;
     const char *n3dsCpuStr;
     const char *autobootModeStr;
     const char *forceAudioOutputStr;
